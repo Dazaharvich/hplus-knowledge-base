@@ -4,7 +4,7 @@
   
   .header {
     background-color: #282c34;
-    padding: 20px;
+    padding: 0.5rem;
     color: white;
   }
 
@@ -12,7 +12,19 @@
     font-size: 3rem;
 
   }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+  }
   
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
   .overlay {
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -20,6 +32,10 @@
   .searchInput {
     margin: 20px;
     color:black;
+    width: 25%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5REM;
   }
   
   .caseList {

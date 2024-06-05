@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from '../styles/Home.module.css';
@@ -24,10 +25,13 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <div className={styles.overlay}>
-          <h1 className={styles.title}>Knowledge Base</h1>
-        </div>
-        
+      <div className="image-container">
+        {/* <div className={styles.overlay}> */}
+          <Image className={styles.image} src='/images/hplus-logo.png' alt='Hplus Logo' width={500} height={200}/>
+          
+        {/* </div> */}
+      </div>
+      <h1 className={styles.title}>Knowledge Base</h1>
 
         {/* Campo de entrada para el término de búsqueda - Actualiza estado search */}
         <input
