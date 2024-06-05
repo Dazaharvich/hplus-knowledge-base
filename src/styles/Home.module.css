@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+
+  .title {
+    font-size: 3rem;
+
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .searchInput {
+    margin: 20px;
+    color:black;
+  }
+  
+  .caseList {
+    margin: 20px;
+  }
+  
+  .case {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
